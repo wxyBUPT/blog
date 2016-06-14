@@ -158,6 +158,15 @@ root     11869  0.0  0.0 103224   792 pts/1    S+   16:41   0:00 grep tair
 ```  
 方式实现，所以将所有的 pid_file 配置项都改回默认，reboot。
 
+###DataServer 一大堆ERROR 日志
+
+格式如下  
+
+```
+[2016-06-03 17:05:15.855165] ERROR handlePacket (heartbeat_thread.cpp:141) [139937675069184] ControlPacket, cmd:2
+```
+并未解决。也不知道会不会有影响。
+
 
 
 

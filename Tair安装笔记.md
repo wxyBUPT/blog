@@ -6,7 +6,7 @@
 
 ##成功安装在Centos上（阿里云）
 
-**配置参考[Tair配置]()**
+**配置参考[Tair配置](https://github.com/wxyBUPT/blog/blob/master/Tair%E9%85%8D%E7%BD%AE%E7%AC%94%E8%AE%B0.md)**
 
 **具体安装过程如下(使用root账户)** 
 
