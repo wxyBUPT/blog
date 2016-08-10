@@ -1,5 +1,6 @@
 #Redis 安装使用笔记
 
+##下面为安装旧版本的redis，jh29的redis已经更新
 在交换29机器上通过如下命令安装了redis  
 sudo apt-get install redis-server 
 
@@ -9,4 +10,7 @@ sudo apt-get install redis-server
 *  sudo vim /etc/redis/redis.conf
 *  执行 sudo /etc/init.d/redis-server --help 
 
+##新的redis安装在 wxy 的家目录下，启动方式如下
+
+nohup ./src/redis-server ./redis.conf &
 

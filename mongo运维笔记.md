@@ -1,7 +1,7 @@
 #Mongo 运维笔记
 
 在声学所的机器上安装了mongo，使用了sudo 权限启动了mongo，命令是 
-mongod --config /etc/mongo.conf 
+mongod --config /etc/mongod.conf 
 
 ##  June 14 2016 出现故障
 
@@ -11,4 +11,4 @@ mongod --config /etc/mongo.conf
 ###修复：
 
 删除mongo pid 文件，删除mongo log文件，删除mongo lock 文件，
-执行 mongod --repair --dbpath /my/db/path --repairpath /tmp/mongodb 
+执行 mongod --repair --dbpath /var/lib/mongo --repairpath /tmp/mongodb 
